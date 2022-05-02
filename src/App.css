@@ -3,7 +3,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: linear-gradient(-125deg, black, #11cc65);
+  background-image: url("./Assets/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   min-height: 100vh;
   width: 100%;
   gap: 2rem;
@@ -32,7 +34,7 @@
 }
 
 .top-app img {
-  max-width: 450px;
+  max-width: 350px;
   object-fit: contain;
 }
 
@@ -58,7 +60,7 @@
   flex-direction: column;
   width: 100%;
   padding: 30px;
-  background-color: rgb(251, 241, 225);
+  background-color: rgb(37, 37, 37) !important;
   border-radius: 20px;
   border: 1px solid rgb(85, 85, 85);
   gap: 20px;
@@ -74,10 +76,10 @@
   font-weight: 600;
 }
 .row p:first-child {
-  color: rgb(109, 109, 109);
+  color: rgb(175, 175, 175);
 }
 .row p:last-child {
-  color: rgb(89, 186, 69);
+  color: white;
 }
 .input {
   width: 100%;
@@ -91,8 +93,9 @@
   transition: all 0.3s ease-in-out;
 }
 .input:focus {
-  outline: rgb(89, 186, 69);
-  border-color: rgb(89, 186, 69);
+  outline: rgb(248, 188, 71);
+
+  border-color: rgb(248, 188, 71);
 }
 .btn-div {
   display: flex;
@@ -117,9 +120,9 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-  background-color: rgb(109, 109, 109);
+  background-color: rgb(53, 44, 26);
   border: 1px solid rgb(77, 64, 39);
-  color: white;
+  color: rgb(245, 229, 195);
 }
 .connect:hover {
   border-width: 2px;
@@ -127,17 +130,17 @@
 .yellow-btn {
   border: none;
   font-size: 1rem !important;
-  color: white;
-  background-color: rgb(89, 186, 69);
+  color: black;
+  background-color: rgb(248, 188, 71);
 }
 .compound {
   border: none;
   font-size: 1rem !important;
-  color: white;
-  background-color: rgb(89, 186, 69);
+  color: black;
+  background-color: rgb(248, 188, 71);
 }
 .box h2 {
-  color: rgb(89, 186, 69);
+  color: white;
   font-size: 1.9rem;
 }
 .note {
@@ -235,6 +238,11 @@
   }
   .box {
     width: 100%;
+  }
+}
+@media screen and (max-width: 770px) {
+  .App {
+    background-size: cover;
   }
 }
 @media screen and (max-width: 540px) {

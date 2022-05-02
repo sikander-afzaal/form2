@@ -6,14 +6,10 @@ import social2 from "./Assets/social2.svg";
 import social3 from "./Assets/social3.svg";
 import meta from "./Assets/meta.svg";
 import connect from "./Assets/connect.svg";
-import Roadmap from "./Components/Roadmap";
 function App() {
   const [open, setOpen] = useState(false);
   return (
     <div className="App">
-      <a href="#roadmap" className="link">
-        Roadmap
-      </a>
       <div
         onClick={() => setOpen((prev) => !prev)}
         className={`overlay ${open ? "display-flex" : ""}`}
@@ -43,8 +39,8 @@ function App() {
             <p>0.00 BNB</p>
           </div>
           <div className="row">
-            <p>Your Seeds</p>
-            <p>0 SEEDS</p>
+            <p>FOOD STAMPS</p>
+            <p>0</p>
           </div>
           <input type="text" className="input" />
           <div className="btn-div">
@@ -58,8 +54,8 @@ function App() {
           </div>
 
           <div className="btn-div">
-            <button className="compound">Feed/Compound</button>
-            <button className="yellow-btn">Sell Green</button>
+            <button className="compound">STACK THAT BREAD</button>
+            <button className="yellow-btn">Cash in Child Support</button>
           </div>
           <div className="row">
             <p>Profit Made</p>
@@ -68,7 +64,7 @@ function App() {
         </div>
 
         <div className="box">
-          <h2>Yield/Consumables</h2>
+          <h2>Trailer Park Info</h2>
           <div className="row">
             <p>Daily Profit</p>
             <p>10%</p>
@@ -90,30 +86,6 @@ function App() {
             by your referral code
           </p>
         </div>
-        <div className="box last-box">
-          <p className="note2">
-            Please note: You can not unstake; only withdraw earnings.
-          </p>
-          <ul>
-            <li>🍀 Tokenomics:</li>
-            <li>🍀 Rewards can be re-invested & withdrawn daily.</li>
-            <li>
-              🍀 To ensure the max rewards (10% we suggest the following
-              strategy:
-            </li>
-            <li>🍀 Plant Seeds (deposit bnb)</li>
-            <li>🍀 Feed weed 6 days per week </li>
-            <li>
-              🍀 Sell weed 1 day per week ( But the choice is yours you can
-              remove rewards daily )
-            </li>
-            <li>
-              🍀 Every deposit/withdrawal has a base tax of 10% to ensure
-              contract longevity, along with an insurance fee
-            </li>
-          </ul>
-        </div>
-        <Roadmap />
         <div className="social-div">
           <a href="#">
             <img src={social1} alt="" />
