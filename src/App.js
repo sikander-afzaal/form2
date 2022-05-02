@@ -26,7 +26,7 @@ function App() {
       </div>
       <div className="top-app">
         <img src={logo} alt="" />
-        <p>Get stinking rich Growing Green</p>
+        <p>The Trashiest, Most Sustainable Bitch in the Trailer Park</p>
       </div>
       <div className="bottom-app">
         <div className="box">
