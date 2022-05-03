@@ -87,7 +87,7 @@ function App() {
           </p>
         </div>
         <div className="box last-box">
-          <p className="note2">Fee breakdown:</p>
+          <h2>Fee breakdown:</h2>
           <ul>
             <li>10% buy/sell Fee: of which</li>
             <li>5% Marketing funds</li>
