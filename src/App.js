@@ -27,9 +27,22 @@ function App() {
       <div className="top-app">
         <img src={logo} alt="" />
         <p>The Trashiest, Most Sustainable Bitch in the Trailer Park</p>
+        <p className="small-p">
+          For Absolute Best Returns, Compound for 6 straight days, then Cash in
+          Child Support on the 7th. Rinse, Repeat - and you will make ridiculous
+          dividends that far exceed base 4% daily APR.
+        </p>
+        <p className="small-p">
+          If you go too long without compounding, your Food Stamp value will
+          decrease rapidly, until the contract outpaces your rewards.
+        </p>
       </div>
       <div className="bottom-app">
         <div className="box">
+          <div className="row">
+            <p>Total Value Locked</p>
+            <p>0</p>
+          </div>
           <div className="row">
             <p>claimable food stamps</p>
             <p>0 stamps</p>
@@ -50,15 +63,15 @@ function App() {
             >
               connect Wallet
             </button>
-            <button className="yellow-btn">Fill in claim form</button>
+            <button className="yellow-btn">BUY FOOD STAMPS</button>
           </div>
 
           <div className="btn-div">
-            <button className="compound">STACK THAT BREAD</button>
+            <button className="compound">COMPOUND REWARDS</button>
             <button className="yellow-btn">Cash in Child Support</button>
           </div>
           <div className="row">
-            <p>Profit Made</p>
+            <p>CHILD SUPPORT COLLECTED</p>
             <p>0.000 BNB</p>
           </div>
         </div>
@@ -66,32 +79,34 @@ function App() {
         <div className="box">
           <h2>Trailer Park Info</h2>
           <div className="row">
-            <p>Daily Profit</p>
+            <p>BASE DAILY RETURNS (DOES NOT INCLUDE COMPOUNDS)</p>
             <p>4%</p>
           </div>
           <div className="row">
-            <p>APR</p>
+            <p>APR (DOES NOT INCLUDE COMPOUNDS)</p>
             <p>3650%</p>
           </div>
           <div className="row">
             <p>Taxes</p>
-            <p>10%</p>
+            <p>6%</p>
           </div>
         </div>
         <div className="box">
           <h2>Referral Link</h2>
           <input type="text" className="input" />
           <p className="note">
-            Receive 5% Straight into your profits , From any customers Brought
-            by your referral code
+            5% Referral fee made from anyone who uses your Referral Code to Buy
+            & Compound. Referral fee does not come out of their pocket.
           </p>
         </div>
         <div className="box last-box">
-          <h2>Fee breakdown:</h2>
+          <h2>Fee Breakdown:</h2>
           <ul>
-            <li>10% buy/sell Fee: of which</li>
-            <li>5% Marketing funds</li>
-            <li>5% Florida Man Token Buyback {"&"} Florida Man NFT Rewards</li>
+            <li>6% Buy/Sell Fee</li>
+            <li>3% Dev/Marketing/TVL Injection</li>
+            <li>
+              3% Florida Man Token Buybacks {"&"} NFT Rewards Pool Injection
+            </li>
           </ul>
         </div>
         <div className="social-div">

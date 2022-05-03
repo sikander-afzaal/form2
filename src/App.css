@@ -45,6 +45,10 @@
   font-weight: 600;
   text-transform: uppercase;
 }
+.small-p {
+  font-size: 0.8rem !important;
+  width: 800px;
+}
 .bottom-app {
   display: flex;
   justify-content: center;
@@ -78,6 +82,7 @@
 .row p:first-child {
   color: rgb(175, 175, 175);
   text-transform: uppercase;
+  font-size: 0.9rem;
 }
 .row p:last-child {
   color: white;
