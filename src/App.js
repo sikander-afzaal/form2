@@ -31,8 +31,8 @@ function App() {
       <div className="bottom-app">
         <div className="box">
           <div className="row">
-            <p>Total Weight</p>
-            <p>0 KG</p>
+            <p>claimable food stamps</p>
+            <p>0 stamps</p>
           </div>
           <div className="row">
             <p>Your Wallet</p>
@@ -67,7 +67,7 @@ function App() {
           <h2>Trailer Park Info</h2>
           <div className="row">
             <p>Daily Profit</p>
-            <p>10%</p>
+            <p>4%</p>
           </div>
           <div className="row">
             <p>APR</p>
