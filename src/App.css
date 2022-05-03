@@ -226,7 +226,8 @@
   align-items: flex-start;
   flex-direction: column;
   gap: 20px;
-  list-style: none;
+  list-style: initial;
+  list-style-position: inside;
 }
 .box ul li {
   font-size: 1rem;

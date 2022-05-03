@@ -50,7 +50,7 @@ function App() {
             >
               connect Wallet
             </button>
-            <button className="yellow-btn">Plant Seeds</button>
+            <button className="yellow-btn">Fill in claim form</button>
           </div>
 
           <div className="btn-div">
@@ -74,7 +74,7 @@ function App() {
             <p>3650%</p>
           </div>
           <div className="row">
-            <p>Pay Off Cops</p>
+            <p>Taxes</p>
             <p>10%</p>
           </div>
         </div>
@@ -82,9 +82,17 @@ function App() {
           <h2>Referral Link</h2>
           <input type="text" className="input" />
           <p className="note">
-            Receive 10% Straight into your profits , From any customers Brought
+            Receive 5% Straight into your profits , From any customers Brought
             by your referral code
           </p>
+        </div>
+        <div className="box last-box">
+          <p className="note2">Fee breakdown:</p>
+          <ul>
+            <li>10% buy/sell Fee: of which</li>
+            <li>5% Marketing funds</li>
+            <li>5% Florida Man Token Buyback {"&"} Florida Man NFT Rewards</li>
+          </ul>
         </div>
         <div className="social-div">
           <a href="#">
